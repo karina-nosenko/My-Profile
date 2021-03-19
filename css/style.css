@@ -70,7 +70,7 @@ header{
 }
 
 #mainNav a:hover{
-    color:#ccc5c5;
+    color:#A9A9A9;
 }
 
 .header{
@@ -107,7 +107,9 @@ header{
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
+
     text-transform: uppercase;
+    cursor:pointer;
 }
 
 /**********Overview section**********/
@@ -131,7 +133,7 @@ header{
 
 .overview .text h2{
     width: 445px;
-    height: 89px;
+    height: auto;
 
     font-family: Lato;
     font-style: normal;
@@ -295,4 +297,45 @@ header{
     text-align: center;
 
     color: #000000;
+}
+
+/**********Footer section**********/
+footer{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 1971px;
+
+    background: #ED4C5C;
+}
+
+#socialNav{
+    position: absolute;
+    width: auto;
+    height: 32px;
+    left: 50px;
+    top: 29px;
+}
+
+#socialNav a{
+    width: 32px;
+    height: 32px;
+    margin-right:25px;
+}
+
+footer span{
+    position: absolute;
+    width: auto;
+    height: 28px;
+    left: 264px;
+    top: 29px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
 }
